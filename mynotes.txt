@@ -1,1 +1,4 @@
-oke,,,
+nama:Dimas Febriyanto
+alamat:Swareng tawun,Tunggulrejo,Jumantono,Karanganyar
+agama:Islam
+
