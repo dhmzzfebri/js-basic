@@ -4,15 +4,20 @@
 // closure terdiri 2 function,1 sebagai callback 1 sebagai pemanggil
 // branch : feat/study-case-callback
 
-//callback
-function perkalihan(a,b){    
-    return a * b
+// callback
+function perkalihan(a, b) {
+    return a * b;
 }
-function luasPersegi(a,b){
-    let luas = perkalihan(a,b)
-    return (luas)
+function luasPersegi(a, b) {
+    let luas = perkalihan(a, b);
+    return luas;
 }
-console.log('Hasil luas persegi:' +luasPersegi(10,5))
+function hitungLuasPersegi(panjang, lebar) {
+    return luasPersegi(panjang, lebar);
+}
+
+console.log('Hasil luas persegi: ' + hitungLuasPersegi(10, 5));
+
 
 
 
