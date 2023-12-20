@@ -44,8 +44,3 @@ tampilkan(function()
     return "ini closure!"
 })
 
-// assessment
-// buat 1 collback dan 1 closure
-// callback terdiri 2 function,1 sebagai callback 1 sebagai pemanggil
-// closure terdiri 2 function,1 sebagai callback 1 sebagai pemanggil
-// branch : feat/study-case-callback

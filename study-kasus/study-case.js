@@ -6,29 +6,28 @@
 
 // callback
 function perkalihan(a, b) {
-    return a * b;
+  return a * b;
 }
+
 function luasPersegi(a, b) {
-    let luas = perkalihan(a, b);
-    return luas;
+  let luas = perkalihan(a, b);
+  return luas;
 }
+
 function hitungLuasPersegi(panjang, lebar) {
-    return luasPersegi(panjang, lebar);
+  return luasPersegi(panjang, lebar);
 }
 
 console.log('Hasil luas persegi: ' + hitungLuasPersegi(10, 5));
 
-
-
-
 //closure
 function greeting() {
-    return "bagaimana dengan pendapat anda?";
+  return 'bagaimana dengan pendapat anda?';
 }
 function tampilkan(callbackgreeting) {
-    let greetingpesan = callbackgreeting();
-    console.log('tampilkan pesan: ' + greetingpesan);
+  let greetingpesan = callbackgreeting();
+  console.log('tampilkan pesan: ' + greetingpesan);
 }
 tampilkan(function () {
-    return greeting();
+  return greeting();
 });
