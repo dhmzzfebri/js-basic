@@ -1,9 +1,14 @@
 function computerSelect(){
     let select = ["batu","gunting","kertas"];
+    console.log(select.length);
+    
     let index = Math.floor(Math.random() * select.length);
     return select[index];
 }
-// console.log(computerSelect());
+// computerSelect()
+// var A =computerSelect();
+// console.log(A);
+
 
 // function winner(param1,param2){
 //     if(param1 === param2){
@@ -25,3 +30,12 @@ function computerSelect(){
 //     let result = winner(user,computer)
 //     console.log('pemain memilih ${user}')
 // }
+
+let A ="fadilla";
+ A ="Nanda";
+
+console.log(A);
+
+let b
+const 
+->
