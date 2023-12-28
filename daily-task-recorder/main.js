@@ -6,7 +6,7 @@ function addTasks(task) {
   console.log(`Tugas ${task} berhasil ditambahkan`);
 }
 addTasks('Belajar JS');
-console.log(tasks);
+// console.log(tasks);
 
 //fungsi tampilkan semua tugas
 function showTasks() {
