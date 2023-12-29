@@ -18,4 +18,6 @@ class CoffeeShop {
 const instanceCoffeShop = new CoffeeShop('GusTea', [' milk tea', ' signature tea', ' gorengan']); 
 
 console.log("Nama CoffeShop :"+" "+ instanceCoffeShop.getName());
-console.log("Daftar Menu :"+ " "+instanceCoffeShop.getMenu());
+instanceCoffeShop.getMenu().forEach(function(daftarMenu){
+    console.log(daftarMenu)
+});
